@@ -7,6 +7,8 @@
 -   굉장히 얕은 Layer로 연산을 최소화 하였으나 좋은 연산능력을 보여주었다.
 
 ## Model
+![image](https://user-images.githubusercontent.com/69898343/133611002-302c92e2-069e-457e-886b-208237df2689.png)
+
 - max-over-time pooling operation ( max-pooling)을 사용하여 최대값을 얻은 후
 - 하나의 filter에 대하여 하나의 feeature만을 뽑아내(특징) 이를 한 곳에 모아 penultimate layer를 생성 후 이에 따라 
 - fully connected softmax layer을 통과하여 값을 얻어낸다.
